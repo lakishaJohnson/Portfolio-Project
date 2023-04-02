@@ -1,0 +1,59 @@
+.card-form {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  #card-button {
+      margin-top: 670px;
+      margin-left: 300px;
+      
+  }
+  #label-text {
+      font-size: 19px;
+      color: #0077cc;
+  }
+  #question {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #question:focus {
+    outline: none;
+    border-color: #0077cc;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0077cc;
+    border: 3px solid red;
+    margin-right: 70%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+  
+  #try-again-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0077cc;
+    border: 3px solid red;
+    margin-right: 70%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+  }
+  

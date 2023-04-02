@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+  }
+  
+  html {
+    color: #040f16;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  header {
+    background: lightblue;
+    border-bottom: 5px solid red;
+    color: black;
+    padding: 0.5rem 15%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+  }
+  
+  header h1 {
+    margin-left: 15px 0;
+    /* background-color: blue; */
+    color: rgb(243, 131, 150);
+    
+  }
+  
+  nav ul {
+    padding: 15px 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 25px;
+  }
+  
+  nav a {
+    color: rgb(243, 131, 150);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    transform: rotate(15deg);
+    color: #de6b48;
+  }
+  
+  @keyframes float-in {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.2);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  
+  img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: float-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    width: 350px;
+  }
+  
